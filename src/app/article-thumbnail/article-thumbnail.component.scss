@@ -1,0 +1,27 @@
+:host{
+    display: block;
+    width: 100%;
+}
+
+img{
+    width:100%;
+}
+
+.heading{
+    color:red;
+    width:100%;
+    margin:0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-style:italic;
+    letter-spacing:3px;
+    display: inline-block;
+}
+
+.title{
+    height:60px;
+    overflow:hidden;
+    margin:0.5rem 1rem 1rem;
+    color:var(--brown-500);
+}

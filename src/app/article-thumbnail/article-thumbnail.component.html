@@ -1,0 +1,16 @@
+<div *ngIf="article">
+    <div class="main" *ngIf="view == 'main'">
+        <span class="heading">Breaking News</span>
+        <img src="../../assets/Images/{{article.imageName}}" alt="rain">
+        <h3 class="title">{{article.title | titlecase}}</h3>
+    </div>
+
+    <div class="other" *ngIf="view == 'other'">
+        
+    </div>
+
+    <div class="suggested" *ngIf="view == 'suggested'">
+        
+    </div>
+
+</div>
