@@ -25,3 +25,16 @@ img{
     margin:0.5rem 1rem 1rem;
     color:var(--brown-500);
 }
+
+@media screen and (min-width:1200px) {
+    .main .title {
+        overflow:auto;
+        height:max-content;
+    }
+
+    .other .heading {
+        margin:0.2rem 0;
+        font-size: 1.2rem;
+        letter-spacing:1px;
+    }
+}

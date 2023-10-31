@@ -41,3 +41,18 @@ section>.articles{
     display: grid;
     margin-top: 1rem;
 }
+
+@media screen and (min-width:1200px) {
+    
+    
+    .articles {
+        gap:2rem;
+        grid-template-columns: 1fr 1.2fr;
+    }
+
+    .other-articles{
+        margin:0%;
+        gap:1rem;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}

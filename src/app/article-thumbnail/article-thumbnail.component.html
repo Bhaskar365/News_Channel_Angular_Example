@@ -6,7 +6,9 @@
     </div>
 
     <div class="other" *ngIf="view == 'other'">
-        
+        <span class="heading">Latest News!</span>
+        <img src="../../assets/Images/{{article.imageName}}" alt="rain">
+        <h3 class="title">{{article.title | titlecase}}</h3>
     </div>
 
     <div class="suggested" *ngIf="view == 'suggested'">
