@@ -1,0 +1,10 @@
+<div class="suggested-articles">
+    <h2>Suggested Articles</h2>
+
+    <div class="suggested-article" *ngFor="let articles of articlesToDisplay">
+        <h3>{{articles.type.split('-').join(" ") | titlecase}}</h3>
+        <article-thumbnail [view]="'suggested'" 
+            [article]="article" *ngFor="let article of articles.articles"></article-thumbnail>
+    </div>
+</div>
+  

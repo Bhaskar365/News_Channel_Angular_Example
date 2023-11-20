@@ -9,6 +9,9 @@ import { CategoriesComponent } from './categories/categories.component';
 import { HomeComponent } from './home/home.component';
 import { ArticleThumbnailComponent } from './article-thumbnail/article-thumbnail.component';
 import { CategoryComponent } from './category/category.component';
+import { SuggestedArticlesComponent } from './suggested-articles/suggested-articles.component';
+import { ArticleDetailsComponent } from './article-details/article-details.component';
+import { OpenArticleDirective } from './open-article.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { CategoryComponent } from './category/category.component';
     CategoriesComponent,
     HomeComponent,
     ArticleThumbnailComponent,
-    CategoryComponent
+    CategoryComponent,
+    SuggestedArticlesComponent,
+    ArticleDetailsComponent,
+    OpenArticleDirective
   ],
   imports: [
     BrowserModule,

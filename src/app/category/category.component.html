@@ -1,1 +1,6 @@
-<p>category works!</p>
+<div class="articles">
+    <h2>{{category.split('-').join(" ") | titlecase}}</h2>
+    <article-thumbnail [article]="article" [view]="'suggested'" *ngFor="let article of articles"></article-thumbnail>
+</div>
+
+<suggested-articles></suggested-articles>

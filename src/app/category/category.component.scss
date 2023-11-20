@@ -1,0 +1,43 @@
+:host{
+    gap:2rem;
+    display:grid;
+    padding:1rem;
+    grid-template-columns:1fr;
+}
+
+h2,h3{
+    text-align:center;
+    color:var(--brown-500);
+    outline:1px solid var(--brown-300);
+}
+
+.articles{
+    gap : 1rem;
+    display: grid;
+}
+
+@media screen and (min-width:1200px) {
+    :host {
+        gap:4rem;
+        padding:2rem 0 0;
+        grid-template-columns: 4fr 1fr;
+     }
+
+     .articles {
+        gap:1rem 2rem;
+        height:max-content;
+        grid-template-columns:1fr 1fr;
+     }
+
+     .articles>h2 {
+        grid-column: 1/3;
+        height: max-content;
+     }
+
+     .articles>article-thumbnail {
+        height:max-content;
+        box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+     }
+
+     
+}

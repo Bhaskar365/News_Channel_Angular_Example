@@ -14,7 +14,7 @@ export class CategoriesComponent implements OnInit {
   ngOnInit(): void { 
 
     this.categories = [
-
+      'environment',
       'indian-politics',
       'international-politics',
       'education',

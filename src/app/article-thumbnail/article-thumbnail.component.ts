@@ -14,8 +14,10 @@ export class ArticleThumbnailComponent implements OnInit{
 
 constructor() { }
 
-ngOnInit(): void {
-  
+ngOnInit(): void { }
+
+getId(name:string,) {
+  return name.split(" ").join("-");
 }
 
 }
